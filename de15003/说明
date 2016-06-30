@@ -1,0 +1,17 @@
+index 主页
+
+
+-templates  页面模板
+    -about.html   关于我们  默认页面
+    -news.html   新闻默认页面
+    -product.html  产品默认留言
+    -onlinemessage.html  在线留言
+    -service.html  服务 默认页面
+    -contactus.html 联系我们默认页面
+    -successcase.html 成功案例默认页面
+
+    -about  关于我们子页面
+    -news  新闻 子也买拿
+    -product 产品 子也买拿
+    -service 服务子页面
+    -successcase 成功案例子页面
