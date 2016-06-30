@@ -19,6 +19,7 @@
 <script type="text/javascript" src="js/angular-route.js"></script>
 
 <script type="text/javascript" src="js/app.js"></script>
+<script src="js/app-route.js"></script>
 
 </head>
 
@@ -27,11 +28,11 @@
 <div class="headerBj">
   <div class="header_top clear">
     <div class="left"> <a href="#/">
-      <img src="images/logo.png" height="62" />
+      <img src="http://www.alvye.cn/statics/images/2016/top_logo.png" height="62" />
       </a> </div>
     <div class="right">
       <div class="clear lxdh"> <span class="col_3ca1ca f_14" >联系电话：</span> <span class="col_3ca1ca f_14" ><strong>
-        4008-770-550
+        021-51528690
         </strong></span> </div>
       <div class="clear">
         <div class="right searchBox clear">
@@ -45,7 +46,7 @@
   </div>
   <div class="navBox">
     <ul class="nav clear">
-      <li class="nav_li"> <a href="/" class="nav_a">首页</a> </li>
+      <li class="nav_li"> <a ui-sref="about" class="nav_a">首页</a> </li>
       
       
       <li class="nav_li"> <a ui-sref="about" class="nav_a">关于我们</a>
@@ -68,13 +69,13 @@
       
       
       
-      <li class="nav_li active"> <a href="366.html" class="nav_a">新闻动态</a>
+      <li class="nav_li active"> <a  ui-sref="news.companynews" class="nav_a">新闻动态</a>
       
         <ul>
         
-          <li> <a href="366.html">公司新闻</a> </li>
+          <li> <a ui-sref="news.companynews">公司新闻</a> </li>
           
-          <li> <a href="367.html">行业资讯</a> </li>
+          <li> <a ui-sref="news.zixun">行业资讯</a> </li>
           
         </ul>
         
@@ -82,15 +83,15 @@
       
       
       
-      <li class="nav_li"> <a href="369.html" class="nav_a">产品中心</a>
+      <li class="nav_li"> <a ui-sref="product" class="nav_a">产品中心</a>
       
         <ul>
         
-          <li> <a href="369.html">产品分类一</a> </li>
+          <li> <a ui-sref="product.product1">产品分类一</a> </li>
           
-          <li> <a href="370.html">产品分类二</a> </li>
+          <li> <a ui-sref="product.product2">产品分类二</a> </li>
           
-          <li> <a href="371.html">产品分类三</a> </li>
+          <li> <a ui-sref="product.product3">产品分类三</a> </li>
           
         </ul>
         
@@ -98,15 +99,15 @@
       
       
       
-      <li class="nav_li"> <a href="373.html" class="nav_a">成功案例</a>
+      <li class="nav_li"> <a ui-sref="successcase" class="nav_a">成功案例</a>
       
         <ul>
         
-          <li> <a href="373.html">成功案例一</a> </li>
+          <li> <a ui-sref="successcase.case1">成功案例一</a> </li>
           
-          <li> <a href="374.html">成功案例二</a> </li>
+          <li> <a ui-sref="successcase.case2">成功案例二</a> </li>
           
-          <li> <a href="375.html">成功案例三</a> </li>
+          <li> <a ui-sref="successcase.case3">成功案例三</a> </li>
           
         </ul>
         
@@ -114,15 +115,15 @@
       
       
       
-      <li class="nav_li"> <a href="377.html" class="nav_a">服务项目</a>
+      <li class="nav_li"> <a ui-sref="service" class="nav_a">服务项目</a>
       
         <ul>
         
-          <li> <a href="377.html">网站建设</a> </li>
+          <li> <a ui-sref="service.website">网站建设</a> </li>
           
-          <li> <a href="378.html">微信开发</a> </li>
+          <li> <a ui-sref="service.weixin">微信开发</a> </li>
           
-          <li> <a href="379.html">网站推广</a> </li>
+          <li> <a ui-sref="service.tuiguang">网站推广</a> </li>
           
         </ul>
         
@@ -130,13 +131,13 @@
       
       
       
-      <li class="nav_li"> <a href="380.html" class="nav_a">在线留言</a>
+      <li class="nav_li"> <a ui-sref="onlinemessage" class="nav_a">在线留言</a>
       
       </li>
       
       
       
-      <li class="nav_li"> <a href="381.html" class="nav_a">联系我们</a>
+      <li class="nav_li"> <a ui-sref="contactus" class="nav_a">联系我们</a>
       
       </li>
       

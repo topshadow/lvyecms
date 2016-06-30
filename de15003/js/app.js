@@ -1,6 +1,11 @@
 angular.module('app',['ngRoute','ui.router'])
   .config(function($stateProvider, $urlRouterProvider){
-  	$stateProvider.state('about',{
+
+  	$stateProvider.state('index',{
+		url:'/index',
+		templateUrl:'index.html'
+	})
+		.state('about',{
   		url:'/about',
   		templateUrl:'templates/about.html'	
   	}).state('about.gsjj',{
@@ -24,5 +29,4 @@ angular.module('app',['ngRoute','ui.router'])
   		templateUrl:'templates/about/zzjg.html'
   	})
   	$urlRouterProvider.otherwise('/about/gsjj');
-  		
  });
